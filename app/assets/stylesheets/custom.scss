@@ -2,11 +2,9 @@
 @import 'bootstrap';
 
 /* universal */
-
 body {
 padding-top: 60px;
 }
-
 section {
 overflow: auto;
 }
@@ -16,13 +14,11 @@ resize: vertical;
 .center {
 text-align: center;
 }
-
 .center h1 {
 margin-bottom: 10px;
 }
 
 /* header */
-
 #logo {
 float: left;
 margin-right: 10px;
@@ -33,7 +29,6 @@ letter-spacing: -1px;
 padding-top: 9px;
 font-weight: bold;
 }
-
 #logo:hover {
 color: #fff;
 text-decoration: none;

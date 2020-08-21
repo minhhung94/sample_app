@@ -1,0 +1,21 @@
+vi:
+  static_pages:
+    home:
+      english: Tiếng Anh
+      vietnam: Việt Nam
+      title_h: 'Trang chủ | Hướng dẫn sử dụng Ruby on Rails'
+      title: 'Chào mừng bạn đến với ứng dụng'
+      title1: 'Đây là trang chủ'
+      title2: 'Hướng dẫn sử dụng Ruby on Rails'
+      title3: 'ứng dụng mẫu.'
+      title4: 'Đăng ký ngay'
+      sign: 'Đăng ký ngay!'
+      home1: Xin chào!
+    help:
+      english: Tiếng Anh
+      vietnam: Việt Nam
+      h1: 'Trợ giúp'
+      title: 'Nhận hướng dãn sử dụng Ruby on Rails tại đây'
+      title2: 'Trang hướng dẫn về Rails'
+      title3: Để nhận giúp đỡ về ưng dụng này, hẫy xem.
+      title4: 'Sách hướng dẫn sử dụng Ruby on Rails'
