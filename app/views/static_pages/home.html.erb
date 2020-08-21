@@ -1,6 +1,3 @@
-<%= link_to t(".english"), locale: :en %>
-<%= link_to t(".vietnam"), locale: :vi %>
-
 <div class="center jumbotron">
   <h1><%= t ".title" %></h1>
   <h2>
@@ -8,10 +5,5 @@
     <a href="http://www.railstutorial.org/"><%= t ".title2" %></a>
     <%= t ".title3" %>
   </h2>
-  
-  <div>
-    <%= link_to do %>
-      <%= t ".sign" %>
-    <% end %>
-  </div>
+  <%= link_to t(".sign"), "#", class: "btn btn-lg btn-primary" %>
 </div>

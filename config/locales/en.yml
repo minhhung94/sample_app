@@ -1,10 +1,20 @@
 en:
+  english: "English"
+  vietnam: "Vietnamese"
   base_title: "Ruby on Rails Tutorial Sample App"
   layouts:
     header:
       home: "Home"
+      help: "Help"
+      about: "About"
+      contact: "Contact"
       title: "Sample app"
   static_pages:
+    ror: "Ruby on Rails"
+    tutorial: "Tutorial"
+    and: "and"
+    the: "The"
+    rort_sample_app: "Ruby on Rails Tutorial Sample App"
     home:
       english: "English"
       vietnam: "VietNamese"
@@ -17,8 +27,21 @@ en:
       sign: "Sign up now!"
       home1: "Hello!"
     help:
-      h1: "Help"
-      title: "Get help on the Ruby on Rails Tutorial at the'"
-      title2: "Rails Tutorial help page"
-      title3: "To get help on this sample app, see the"
-      title4: "Ruby on Rails Tutorial book"
+      title: "Help"
+      get_help: "Get help on the Ruby on Rails Tutorial at the"
+      book: " book"
+      get_book: ". To get help on this sample app, see the"
+      rails_help_page: "Rails Tutorial Help page"
+    about:
+      title: "About"
+      learn_enough: "Learn Enough"
+      fa_of_tutorial: "family of tutorials, is a"
+      part_of: "part of the"
+      screencast_series: "screencast series"
+      teach_development: "to teach web development with"
+      sample_of_tutorial: "This is the sample app for the tutorial."
+    contact:
+      title: "Contact"
+      get_contact: "Contact a Ruby on Rails tutorial
+        about sample application at"
+      rails_contact_page: " contact page"

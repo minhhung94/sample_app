@@ -1,0 +1,14 @@
+<% provide :title, t(".title") %>
+<h1><%= yield :title %></h1>
+<p>
+  <%= t "static_pages.the" %>
+  <%= link_to t("static_pages.ror"),Settings.rails_homepage %>
+  <%= t ".part_of" %>
+  <%= link_to t(".learn_enough"), Settings.learn_enough %>
+  <%= t ".fa_of_tutorial" %>
+  <%= link_to t("help.book"), Settings.rails_book %> <%= t "static_pages.and" %>
+  <%= link_to t(".screencast_series"), Settings.rails_screencasts %>
+  <%= t ".teach_development" %>
+  <%= link_to t("static_pages.ror"), Settings.rails_homepage %>.
+  <%= t ".sample_of_tutorial" %>
+</p>
