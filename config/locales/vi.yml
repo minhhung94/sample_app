@@ -98,6 +98,10 @@ vi:
       message: "Tài khoản chưa được kích hoạt.Kiểm tra hộp thư của
         bạn trong đường dẫn kích hoạt."
       invalid: "Hộp thư hoặc mật khẩu không hợp lệ"
+      welcome: "Chào mừng đến với trang"
+      create_fail: "Tạo tài khoản thất bại"
+      check_email: "Vui lòng kiểm tra hộp thư để kích hoạt tài khoản
+        của bạn"
     new:
       title: "Đăng nhập"
       email: "Email"
