@@ -49,10 +49,18 @@ en:
       rails_contact_page: " contact page"
   users:
     new:
+      test: "Can not find"
       title: "Sign up"
       user: "Users"
-      name: "Name: "
+      username: "Name: "
       email: "Email: "
-      pass: "Password: "
-      conf: "Confirmation: "
+      password: "Password: "
+      password_confirmation: "Confirmation: "
       create: "Create my account"
+    create:
+      fail: "Error!!!"
+      welcome: "Welcome to you"
+  shared:
+    error_messages:
+      text: "The form contains"
+      count: " %{count} error"

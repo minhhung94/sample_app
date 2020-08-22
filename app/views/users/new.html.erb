@@ -1,18 +1,21 @@
 <h1 class="new"> <%= t ".title"%> </h1>
+
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
     <%= form_for @user do |f| %>
-      <%= label_tag t ".name" %>
+      <%= render "shared/error_messages" %>
+
+      <%= label_tag t ".username" %>
       <%= f.text_field :name, class: "form-control" %>
 
       <%= label_tag t ".email" %>
       <%= f.email_field :email, class: "form-control" %>
 
-      <%= label_tag t ".pass" %>
-      <%= f.password_field :pass, class: "form-control" %>
+      <%= label_tag t ".password" %>
+      <%= f.password_field :password, class: "form-control" %>
 
-      <%= label_tag t ".conf" %>
-      <%= f.password_field :conf, class: "form-control" %>
+      <%= label_tag t ".password_confirmation" %>
+      <%= f.password_field :password_confirmation, class: "form-control" %>
 
       <%= f.submit "Create my account", class: "btn btn-primary" %>
     <% end %>

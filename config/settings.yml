@@ -16,3 +16,6 @@ validations:
       REGEX: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
     password:
       min_length: 8
+helper:
+  users:
+    img_size: 60

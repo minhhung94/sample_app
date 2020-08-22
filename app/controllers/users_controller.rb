@@ -7,6 +7,24 @@ class UsersController < ApplicationController
     @user = User.find_by id: params[:id]
     return if @user
 
-    redirect_to root_path, success: t ".new.test"
+    flash[:warning] = t ".new.test"
+    redirect_to root_path
+  end
+
+  def create
+    @user = User.new user_params
+    if @user.save
+      flash[:success] = t ".welcome"
+      redirect_to @user
+    else
+      flash.now[:danger] = t ".fail"
+      render :new
+    end
+  end
+
+  private
+
+  def user_params
+    params.require(:user).permit User::PERMITTED_ATTR
   end
 end
