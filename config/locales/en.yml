@@ -34,6 +34,7 @@ en:
       home_page: "This is the home page for the"
       sample_app: "sample application."
       sign_up: "Sign up now!"
+      feed: "Micropost Feed"
     help:
       title: "Help"
       get_help: "Get help on the Ruby on Rails Tutorial at the"
@@ -91,9 +92,19 @@ en:
     show:
       notice_error: "Not found"
   shared:
+    user_info:
+      view_profile: "view my profile"
     error_messages:
       text: "The form contains"
       count: " %{count} error"
+    micropost_form:
+      post: "Post"
+      place_holder: "Compose new micropost..."
+      alert_max_size: "Maximum file size is 5MB. Please choose a smaller file."
+    user_info:
+      count_micropost:
+        one: "%{count} micropost"
+        other: "%{count} microposts"
   sessions:
     error: "Invalid email/password combination"
     create:
@@ -139,3 +150,24 @@ en:
         not_valid_user: "Email's not existed"
         failed_update: "Update failed"
       success: "Password has been reset."
+  microposts:
+    create:
+      micropost_cre: "Micropost created!"
+    micropost:
+      confirm_del: "You sure?"
+    destroy:
+      micropost_del: "Micropost deleted"
+      micropost_fail: "Delete micropost failed"
+    correct_user:
+      found: "Action takes effect"
+      not_found: "Not fould"
+    model:
+      image:
+        type: "must be a valid image format"
+        size: "should be less than 5MB"
+    maximum_img_size: "Maximum file size is 5MB. Please choose a smaller file."
+    micropost:
+      posted: "Posted"
+      ago: "ago."
+      delete: "delete"
+      confirm: "You sure?"
