@@ -17,6 +17,7 @@ vi:
       title: "Ứng dụng mẫu"
       signup: "Đăng ký"
       users: "Người dùng"
+      login: "Đăng nhập"
       account: "Tài khoản"
       profile: "Hồ sơ"
       settings: "Cài đặt"
@@ -60,7 +61,7 @@ vi:
       username: "Họ tên: "
       email: "Địa chỉ mail: "
       password: "Mật khẩu: "
-      password_confirmation: "Nhập lại mật khẩu: "
+      confirmation: "Nhập lại mật khẩu: "
       create: "Tạo tài khoản"
     create:
       fail: "Có lỗi xảy ra"
@@ -72,4 +73,10 @@ vi:
   sessions:
     error: "Email hoặc mật khẩu không hợp lệ"
     new:
-      title: "Log in"
+      title: "Đăng nhập"
+      email: "Email"
+      password: "Mật khẩu"
+      log_in: "Đăng nhập"
+      sign_now: "Đăng ký ngay!"
+      new_user: "Tạo tài khoản mới ? "
+      remember_text: "Lưu trên máy tính này"
