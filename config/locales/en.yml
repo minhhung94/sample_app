@@ -54,6 +54,8 @@ en:
         about sample application at"
       rails_contact_page: " contact page"
   users:
+    index:
+      title: "List users"
     new:
       test: "Can not find"
       title: "Sign up"
@@ -62,10 +64,31 @@ en:
       email: "Email: "
       password: "Password: "
       confirmation: "Confirmation: "
-      create: "Create my account"
+      create_account: "Create my account"
     create:
       fail: "Error!!!"
       welcome: "Welcome to you"
+      message_not_delete: "Not User deleted"
+    edit:
+      title: "Edit user"
+      sub_title: "Update your profile"
+      change_email: "change"
+    form:
+      name: "name"
+      email: "email"
+      password: "password"
+      password_confirmation: "password confirmation"
+      save_changes: "Save changes"
+      create_account: "Create my account"
+    update:
+      success: "Profile updated"
+      fail: "Failed update"
+    user:
+      confirm: "You sure?"
+    delete:
+      del_success: "Delete success"
+    show:
+      notice_error: "Not found"
   shared:
     error_messages:
       text: "The form contains"

@@ -19,3 +19,6 @@ validations:
 helper:
   users:
     img_size: 60
+users:
+  index:
+    per_page: 5
