@@ -1,23 +1,20 @@
 
 <!DOCTYPE html> 
 <html> 
-<head>
-<title>Home | Ruby on Rails Tutorial Sample
-App</title>
-<head>
-</head>
-<body> 
-
+  <head>
+	<title><%= t ".title_h"%></title>
+  </head>
+  <body> 
 	<div class="center jumbotron">
-	<h1>Welcome to the Sample App</h1>
-	<h2>
-	This is the home page for the
-	<a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-	sample application.
-	</h2>
-	<%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+	  <h1><%= t ".title"%></h1>
+	  <h2>
+	    <%= t ".title1"%>
+		<a href="http://www.railstutorial.org/"><%= t ".title2"%></a>
+		<%= t ".title3"%>
+	  </h2>
+	<a href="#" class="btn btn-lg btn-primary"><%= t ".title4"%></a>
 	</div>
-</body>
+  </body>
 </html>
 
 
