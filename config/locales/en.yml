@@ -50,4 +50,9 @@ en:
   users:
     new:
       title: "Sign up"
-      intro: "This will be a signup page for new users."
+      user: "Users"
+      name: "Name: "
+      email: "Email: "
+      pass: "Password: "
+      conf: "Confirmation: "
+      create: "Create my account"

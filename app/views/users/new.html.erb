@@ -1,3 +1,21 @@
-<% provide(:title, t(".title")) %>
-<h1><%= t ".title" %></h1>
-<p><%= t ".intro" %></p>
+<h1 class="new"> <%= t ".title"%> </h1>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for @user do |f| %>
+      <%= label_tag t ".name" %>
+      <%= f.text_field :name, class: "form-control" %>
+
+      <%= label_tag t ".email" %>
+      <%= f.email_field :email, class: "form-control" %>
+
+      <%= label_tag t ".pass" %>
+      <%= f.password_field :pass, class: "form-control" %>
+
+      <%= label_tag t ".conf" %>
+      <%= f.password_field :conf, class: "form-control" %>
+
+      <%= f.submit "Create my account", class: "btn btn-primary" %>
+    <% end %>
+  </div>
+</div>
+

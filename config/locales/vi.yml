@@ -50,4 +50,9 @@ vi:
   users:
     new:
       title: "Đăng ký"
-      intro: "Đây sẽ là trang đăng ký cho người dùng mới."
+      user: "Người dùng"
+      name: "Họ tên: "
+      email: "Địa chỉ mail: "
+      pass: "Mật khẩu: "
+      conf: "Mã xác nhận: "
+      create: "Tạo tài khoản"
