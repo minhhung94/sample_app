@@ -1,0 +1,29 @@
+vi:
+  base_title: "Hướng dẫn sử dụng Ruby on Rails"
+  layouts:
+    header:
+      home: "Trang chủ"
+      title: "Ứng dụng mẫu"
+  static_pages:
+    home:
+      english: Tiếng Anh
+      vietnam: Việt Nam
+      title_h: 'Trang chủ | Hướng dẫn sử dụng Ruby on Rails'
+      title: 'Chào mừng bạn đến với ứng dụng'
+      title1: 'Đây là trang chủ'
+      title2: 'Hướng dẫn sử dụng Ruby on Rails'
+      title3: 'ứng dụng mẫu.'
+      title4: 'Đăng ký ngay'
+      sign: 'Đăng ký ngay!'
+      home1: Xin chào!
+  users:
+    new:
+      title1_1: 'Đăng ký'
+      user: 'Người dùng'
+      name: 'Họ tên: '
+      email: 'Địa chỉ mail: '
+      pass: 'Mật khẩu: '
+      conf: 'Mã xác nhận: '
+      create: 'Tạo tài khoản'
+  english: Tiếng Anh
+  vietnam: Việt Nam

@@ -1,0 +1,22 @@
+
+<%= link_to "English", locale:"en" %>
+<%= link_to "Vietnamese", locale:"vi" %>
+
+<h1> <%= t ".title1_1"%> </h1>
+<br>
+<div>
+  <form>
+    <label for="name"><%= t ".name"%> </label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="email"><%= t ".email"%> </label><br>
+    <input type="email" id="email" name="email"><br>
+    <label for="pwd"><%= t ".pass"%></label><br>
+    <input type="password" id="pwd" name="pwd"><br>
+    <label for="confirmation"><%= t ".conf"%></label><br>
+    <input type="text" id="confirmation" name="confirmation"><br>
+    <br>
+    <button type="button"><%= t ".create"%></button>
+  </form>
+<br>
+</div>
+
