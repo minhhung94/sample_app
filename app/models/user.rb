@@ -1,7 +1,6 @@
 class User < ApplicationRecord
-  VALID_EMAIL_REGEX = Settings.validations.user.email.REGEX
 
-  PERMITTED_ATTR = %i(email password name password_confirmation).freeze
+  VALID_EMAIL_REGEX = Settings.validations.user.email.REGEX
 
   validates :email, presence: true,
                   length: {maximum: Settings.validations.user.email.max_length},
@@ -14,10 +13,15 @@ class User < ApplicationRecord
 
   has_secure_password
 
+  def User.digest(string)
+    cost = ActiveModel::SecurePassword.min_cost ?
+      BCrypt::Engine::MIN_COST : BCrypt::Engine.cost
+      BCrypt::Password.create(string, cost: cost)
+  end
+
   before_save :downcase_email
 
   private
-
   def downcase_email
     email.downcase!
   end
