@@ -1,11 +1,11 @@
 class UsersController < ApplicationController
   before_action :logged_in_user, only: [:index, :edit, :update, :destroy]
-  before_action :load_user, only: [:show,:edit, :update,:destroy]
+  before_action :load_user, only: [:show, :edit, :update, :destroy]
   before_action :correct_user, only: [:edit, :update]
   before_action :admin_user, only: :destroy
 
   def index
-    @users = User.paginate(page: params[:page],
+    @users = User.where(activated: FILL_IN).paginate(page: params[:page],
       per_page: Settings.users.index.per_page)
   end
 
@@ -16,13 +16,13 @@ class UsersController < ApplicationController
   def show; end
 
   def create
-    @user = User.new user_params
+    @user = User.new(user_params)
     if @user.save
-      login @user
-      flash[:success] = t ".welcome"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t ".check_email"
+      redirect_to root_url
     else
-      flash.now[:danger] = t ".fail"
+      flash.now[:danger] = t ".create_fail"
       render :new
     end
   end

@@ -12,6 +12,7 @@ gem "bootstrap-will_paginate", "1.0.0"
 gem "coffee-rails", "~> 4.2"
 gem "config"
 gem "faker", "2.1.2"
+gem "figaro"
 gem "jbuilder", "~> 2.7"
 # Use jquery as the JavaScript library
 gem "jquery-rails", "~> 4.3", ">= 4.3.1"

@@ -15,10 +15,11 @@ validations:
       max_length: 255
       REGEX: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
     password:
-      min_length: 8
+      min_length: 6
 helper:
   users:
     img_size: 60
 users:
   index:
     per_page: 5
+number: "1"
