@@ -4,8 +4,23 @@ navbar-inverse">
     <%= link_to t(".title"), "#", id: "logo" %>
 	<nav>
 	  <ul class="nav navbar-nav navbar-right">
-	    <li><%= link_to t(".home"), "#" %></li>
+	    <li>
+        <%= link_to t(".home"), "home" %>
+      </li>
+      <li>
+        <%= link_to t(".help"), "help" %>
+      </li>
+      <li>
+        <%= link_to t(".about"), "about" %>
+      </li>
+      <li>
+        <%= link_to t(".contract"), "contract" %>
+      </li>
 	  </ul>
 	</nav>
   </div>
-</header> 
+</header>
+<div class="language">
+  <%= link_to t("english"), locale: :en %>
+  <%= link_to t("vietnam"), locale: :vi %>
+</div>

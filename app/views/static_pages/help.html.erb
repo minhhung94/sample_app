@@ -1,0 +1,13 @@
+
+<div class="center jumbotron">
+  <% provide :title, t(".title") %>
+  <h1><%= t ".title" %></h1>
+  <p>
+    <%= t ".get_help" %>
+    <%= link_to t(".rails_help_page"), Settings.rails_help %>
+    <%= t ".get_book" %>
+    <%= link_to Settings.rails_book do %>
+      <em><%= t "static_pages.ror" %> <%= t "static_pages.tutorial" %></em><%= t ".book" %>
+    <% end %>
+  </p>
+</div>
