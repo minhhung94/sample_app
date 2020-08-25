@@ -3,12 +3,19 @@ vi:
   vietnam: Tiếng Việt
   base_title: "Hướng dẫn sử dụng Sample App Ruby on Rails"
   layouts:
+    footer:
+      the: "Các"
+      by: "bởi"
+      hartl: "Michael Hartl"
+      about: "Giới thiệu"
+      contact: "Liên hệ"
     header:
       home: "Trang chủ"
       help: "Giúp đỡ"
       about: "Giới thiệu"
       contact: "Liên hệ"
       title: "Ứng dụng mẫu"
+      signup: "Đăng ký"
   static_pages:
     ror: "Ruby on Rails"
     tutorial: "Hướng dẫn"
@@ -16,14 +23,11 @@ vi:
     the: "Các"
     rort_sample_app: "Hướng dẫn sử dụng Sample App Ruby on Rails"
     home:
-      title_h: 'Trang chủ | Hướng dẫn sử dụng Ruby on Rails'
-      title: 'Chào mừng bạn đến với ứng dụng'
-      title1: 'Đây là trang chủ'
-      title2: 'Hướng dẫn sử dụng Ruby on Rails'
-      title3: 'ứng dụng mẫu.'
-      title4: 'Đăng ký ngay'
-      sign: 'Đăng ký ngay!'
-      home1: Xin chào!
+      title: "Trang chủ"
+      welcome: "Chào mừng bạn đến với Sample App"
+      home_page: "Đây là trang chủ của "
+      sample_app: "Sample App"
+      sign_up: "Đăng ký ngay!"
     help:
       title: "Hỗ trợ"
       get_help: "Tìm kiếm sự hỗ trợ từ Ruby on Rails Tutorial tại trang "
@@ -38,8 +42,12 @@ vi:
       screencast_series: "một loạt bài hướng dẫn "
       teach_development: "dạy lập trình với"
       sample_of_tutorial: "Đây là ứng dụng mẫu sampleapp của turorial."
-    contract:
+    contact:
       title: "Liên hệ"
       get_contact: "Liên hệ với hướng dẫn Ruby on Rails
          về ứng dụng mẫu tại"
       rails_contact_page: "trang liên hệ"
+  users:
+    new:
+      title: "Đăng ký"
+      intro: "Đây sẽ là trang đăng ký cho người dùng mới."

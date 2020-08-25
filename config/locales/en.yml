@@ -3,12 +3,19 @@ en:
   vietnam: "Vietnamese"
   base_title: "Ruby on Rails Tutorial Sample App"
   layouts:
+    footer:
+      the: "The"
+      by: "by"
+      hartl: "Michael Hartl"
+      about: "About"
+      contact: "Contact"
     header:
       home: "Home"
       help: "Help"
       about: "About"
       contact: "Contact"
       title: "Sample app"
+      signup: "Sign up"
   static_pages:
     ror: "Ruby on Rails"
     tutorial: "Tutorial"
@@ -16,16 +23,11 @@ en:
     the: "The"
     rort_sample_app: "Ruby on Rails Tutorial Sample App"
     home:
-      english: "English"
-      vietnam: "VietNamese"
-      title_h: "Home | Ruby on Rails Tutorial Sample App"
-      title: "Welcome to the Sample App"
-      title1: "This is the home page for the"
-      title2: "Ruby on Rails Tutorial"
-      title3: "sample application."
-      title4: "Sign up now!"
-      sign: "Sign up now!"
-      home1: "Hello!"
+      title: "Home"
+      welcome: "Welcome to the Sample App"
+      home_page: "This is the home page for the"
+      sample_app: "sample application."
+      sign_up: "Sign up now!"
     help:
       title: "Help"
       get_help: "Get help on the Ruby on Rails Tutorial at the"
@@ -45,3 +47,7 @@ en:
       get_contact: "Contact a Ruby on Rails tutorial
         about sample application at"
       rails_contact_page: " contact page"
+  users:
+    new:
+      title: "Sign up"
+      intro: "This will be a signup page for new users."
