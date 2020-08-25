@@ -2,10 +2,17 @@
 navbar-inverse">
   <div class="container">
     <%= link_to t(".title"), "#", id: "logo" %>
-	<nav>
-	  <ul class="nav navbar-nav navbar-right">
-	    <li><%= link_to t(".home"), "#" %></li>
-	  </ul>
-	</nav>
+  <nav>
+    <ul class="nav navbar-nav navbar-right">
+      <li><%= link_to t(".home"), root_path %></li>
+      <li><%= link_to t(".help"), help_path %></li>
+      <li><%= link_to t(".about"), about_path %></li>
+      <li><%= link_to t(".contact"), contact_path %></li>
+    </ul>
+  </nav>
   </div>
-</header> 
+</header>
+<div class="language">
+  <%= link_to t("english"), locale: :en %>
+  <%= link_to t("vietnam"), locale: :vi %>
+</div>

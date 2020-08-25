@@ -1,8 +1,21 @@
 vi:
+  english: Tiếng Anh
+  vietnam: Tiếng Việt
+  base_title: "Hướng dẫn sử dụng Sample App Ruby on Rails"
+  layouts:
+    header:
+      home: "Trang chủ"
+      help: "Giúp đỡ"
+      about: "Giới thiệu"
+      contact: "Liên hệ"
+      title: "Ứng dụng mẫu"
   static_pages:
+    ror: "Ruby on Rails"
+    tutorial: "Hướng dẫn"
+    and: "và"
+    the: "Các"
+    rort_sample_app: "Hướng dẫn sử dụng Sample App Ruby on Rails"
     home:
-      english: Tiếng Anh
-      vietnam: Việt Nam
       title_h: 'Trang chủ | Hướng dẫn sử dụng Ruby on Rails'
       title: 'Chào mừng bạn đến với ứng dụng'
       title1: 'Đây là trang chủ'
@@ -12,10 +25,21 @@ vi:
       sign: 'Đăng ký ngay!'
       home1: Xin chào!
     help:
-      english: Tiếng Anh
-      vietnam: Việt Nam
-      h1: 'Trợ giúp'
-      title: 'Nhận hướng dãn sử dụng Ruby on Rails tại đây'
-      title2: 'Trang hướng dẫn về Rails'
-      title3: Để nhận giúp đỡ về ưng dụng này, hẫy xem.
-      title4: 'Sách hướng dẫn sử dụng Ruby on Rails'
+      title: "Hỗ trợ"
+      get_help: "Tìm kiếm sự hỗ trợ từ Ruby on Rails Tutorial tại trang "
+      book: " quyển sách"
+      get_book: " Để hiểu rõ về ứng dụng mẫu sample application, truy cập"
+      rails_help_page: "hỗ trợ"
+    about:
+      title: "Giới thiệu"
+      learn_enough: "Learn Enough"
+      fa_of_tutorial: "các bài hướng dẫn, là "
+      part_of: "một phần của"
+      screencast_series: "một loạt bài hướng dẫn "
+      teach_development: "dạy lập trình với"
+      sample_of_tutorial: "Đây là ứng dụng mẫu sampleapp của turorial."
+    contract:
+      title: "Liên hệ"
+      get_contact: "Liên hệ với hướng dẫn Ruby on Rails
+         về ứng dụng mẫu tại"
+      rails_contact_page: "trang liên hệ"
