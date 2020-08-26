@@ -1,0 +1,15 @@
+<footer class="footer fixed-bottom">
+  <p>
+    <%= t(".the") %>
+    <%= link_to t("static_pages.rort"), root_path %>
+    <%= t(".by") %>
+    <%= link_to t(".hartl"), Settings.hartl_page %>
+  </p>
+  <nav>
+    <ul>
+      <li><%= link_to t(".about"), about_path %></li>
+      <li><%= link_to t(".contact"), contact_path %></li>
+      <li><%= link_to t(".new"), Settings.rails.news %></li>
+    </ul>
+  </nav>
+</footer>

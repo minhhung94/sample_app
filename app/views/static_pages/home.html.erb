@@ -1,9 +1,11 @@
 <div class="center jumbotron">
-  <h1><%= t ".title" %></h1>
+  <h1><%= t ".welcome" %></h1>
   <h2>
-    <%= t ".title1" %>
-    <a href="http://www.railstutorial.org/"><%= t ".title2" %></a>
-    <%= t ".title3" %>
+    <%= t ".home_page" %>
+    <%= link_to "#{t("static_pages.ror")} #{t("static_pages.tutorial")}", Settings.rails.homepage %>
+    <%= t ".sample_app" %>
   </h2>
-  <%= link_to t(".sign"), "#", class: "btn btn-lg btn-primary" %>
+  <%= link_to t(".sign_up"), "#" , class: "btn btn-lg btn-primary" %>
 </div>
+<%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200px"),
+  Settings.rails.homepage %>
