@@ -1,7 +1,7 @@
 vi:
   english: Tiếng Anh
   vietnam: Tiếng Việt
-  base_title: "Hướng dẫn sử dụng Sample App Ruby on Rails"
+  base_title: "Hướng dẫn sử dụng Ruby on Rails với ứng dụng mẫu"
   layouts:
     footer:
       the: "Các"
@@ -49,10 +49,18 @@ vi:
       rails_contact_page: "trang liên hệ"
   users:
     new:
+      test: "Không thể tìm thấy"
       title: "Đăng ký"
       user: "Người dùng"
-      name: "Họ tên: "
+      username: "Họ tên: "
       email: "Địa chỉ mail: "
-      pass: "Mật khẩu: "
-      conf: "Mã xác nhận: "
+      password: "Mật khẩu: "
+      password_confirmation: "Nhập lại mật khẩu: "
       create: "Tạo tài khoản"
+    create:
+      fail: "Có lỗi xảy ra"
+      welcome: "Chào mừng bạn"
+  shared:
+    error_messages:
+      text: "Biểu mẫu chứa"
+      count: " %{count} error"
