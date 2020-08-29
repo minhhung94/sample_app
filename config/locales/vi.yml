@@ -16,6 +16,11 @@ vi:
       contact: "Liên hệ"
       title: "Ứng dụng mẫu"
       signup: "Đăng ký"
+      users: "Người dùng"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
   static_pages:
     ror: "Ruby on Rails"
     tutorial: "Hướng dẫn"
@@ -64,3 +69,7 @@ vi:
     error_messages:
       text: "Biểu mẫu chứa"
       count: " %{count} error"
+  sessions:
+    error: "Email hoặc mật khẩu không hợp lệ"
+    new:
+      title: "Log in"

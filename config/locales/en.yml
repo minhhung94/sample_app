@@ -16,6 +16,12 @@ en:
       contact: "Contact"
       title: "Sample app"
       signup: "Sign up"
+      login: "Log in"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
   static_pages:
     ror: "Ruby on Rails"
     tutorial: "Tutorial"
@@ -64,3 +70,8 @@ en:
     error_messages:
       text: "The form contains"
       count: " %{count} error"
+  sessions:
+    error: "Invalid email/password combination"
+    new:
+      title: "Log in"
+
