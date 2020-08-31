@@ -2,6 +2,10 @@ class User < ApplicationRecord
 
   VALID_EMAIL_REGEX = Settings.validations.user.email.REGEX
 
+  attr_accessor :remember_token
+
+  before_save :downcase_email
+
   validates :email, presence: true,
                   length: {maximum: Settings.validations.user.email.max_length},
                     format: {with: VALID_EMAIL_REGEX},
@@ -13,16 +17,30 @@ class User < ApplicationRecord
 
   has_secure_password
 
-  def User.digest(string)
-    cost = ActiveModel::SecurePassword.min_cost ?
-      BCrypt::Engine::MIN_COST : BCrypt::Engine.cost
-      BCrypt::Password.create(string, cost: cost)
+  def self.digest string
+    if ActiveModel::SecurePassword.min_cost
+      BCrypt::Password.create string, cost: BCrypt::Engine::MIN_COST
+    else
+      BCrypt::Password.create string, cost: BCrypt::Engine.cost
+    end
   end
 
-  before_save :downcase_email
+  def self.new_token
+    SecureRandom.urlsafe_base64
+  end
 
-  private
-  def downcase_email
-    email.downcase!
+  def remember
+    self.remember_token = User.new_token
+    update remember_digest: User.digest(remember_token)
+  end
+
+  def authenticated? remember_token
+    return false unless remember_digest
+
+    BCrypt::Password.new(remember_digest).is_password?(remember_token)
+  end
+
+  def forget
+    update remember_digest: nil
   end
 end

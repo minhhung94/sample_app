@@ -61,7 +61,7 @@ en:
       username: "Name: "
       email: "Email: "
       password: "Password: "
-      password_confirmation: "Confirmation: "
+      confirmation: "Confirmation: "
       create: "Create my account"
     create:
       fail: "Error!!!"
@@ -74,4 +74,9 @@ en:
     error: "Invalid email/password combination"
     new:
       title: "Log in"
-
+      email: "Email"
+      password: "Password"
+      log_in: "Log in"
+      sign_now: "Sign up now !"
+      new_user: "New user ? "
+      remember_text: "Remember me on this computer"
