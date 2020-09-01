@@ -54,6 +54,8 @@ vi:
          về ứng dụng mẫu tại"
       rails_contact_page: "trang liên hệ"
   users:
+    index:
+      title: "Danh sách tài khoản"
     new:
       test: "Không thể tìm thấy"
       title: "Đăng ký"
@@ -62,10 +64,30 @@ vi:
       email: "Địa chỉ mail: "
       password: "Mật khẩu: "
       confirmation: "Nhập lại mật khẩu: "
-      create: "Tạo tài khoản"
+      create_account: "Tạo tài khoản"
     create:
       fail: "Có lỗi xảy ra"
       welcome: "Chào mừng bạn"
+    edit:
+      title: "Chỉnh sửa tài khoản"
+      sub_title: "Cập nhật hồ sơ của bạn"
+      change_email: "Thay đổi"
+    form:
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      password_confirmation: "nhập lại mật khẩu"
+      save_changes: "Lưu thay đổi"
+      create_account: "Tạo tài khoản của tôi"
+    update:
+      success: "Cập nhật hồ sơ"
+      fail: "Cập nhật thất bại"
+    user:
+      confirm: "Bạn chắc chắn?"
+    delete:
+      del_success: "Xóa thành công"
+    show:
+      notice_error: "Không tìm thấy"
   shared:
     error_messages:
       text: "Biểu mẫu chứa"
