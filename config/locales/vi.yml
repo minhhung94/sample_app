@@ -94,6 +94,10 @@ vi:
       count: " %{count} error"
   sessions:
     error: "Email hoặc mật khẩu không hợp lệ"
+    create:
+      message: "Tài khoản chưa được kích hoạt.Kiểm tra hộp thư của
+        bạn trong đường dẫn kích hoạt."
+      invalid: "Hộp thư hoặc mật khẩu không hợp lệ"
     new:
       title: "Đăng nhập"
       email: "Email"
@@ -102,3 +106,15 @@ vi:
       sign_now: "Đăng ký ngay!"
       new_user: "Tạo tài khoản mới ? "
       remember_text: "Lưu trên máy tính này"
+  user_mailer:
+    account_activation:
+      hi: "Xin chào!"
+      welcome: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết dưới đây để kích hoạt tài khoản của bạn:"
+      sample_app: "Sample App"
+      activate: "Activate"
+      acc_activation: "Account activation"
+  inform_error: "Opp!Somethings is wrong!"
+  account_activations:
+    edit:
+      acctivated_success: "Đã xác minh tài khoản"
+      invalid_link: "Link xác minh không tồn tại."

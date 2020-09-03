@@ -56,6 +56,7 @@ en:
   users:
     index:
       title: "List users"
+      please_login: "Please login "
     new:
       test: "Can not find"
       title: "Sign up"
@@ -66,7 +67,7 @@ en:
       confirmation: "Confirmation: "
       create_account: "Create my account"
     create:
-      fail: "Error!!!"
+      create_fail: "Create account failed"
       welcome: "Welcome to you"
       message_not_delete: "Not User deleted"
     edit:
@@ -95,6 +96,9 @@ en:
       count: " %{count} error"
   sessions:
     error: "Invalid email/password combination"
+    create:
+      message: "Account not activated. Check your email for the activation link."
+      invalid: "Invalid email/password combination"
     new:
       title: "Log in"
       email: "Email"
@@ -103,3 +107,16 @@ en:
       sign_now: "Sign up now !"
       new_user: "New user ? "
       remember_text: "Remember me on this computer"
+  user_mailer:
+    account_activation:
+      hi: "Hi"
+      welcome: "Welcome to the Sample App! Click on the link below to
+        activate your account:"
+      sample_app: "Sample App"
+      activate: "Activate"
+      acc_activation: "Account activation"
+  inform_error: "Opp!Somethings is wrong!"
+  account_activations:
+    edit:
+      acctivated_success: "acctivated success"
+      invalid_link: "invalid activate link"
