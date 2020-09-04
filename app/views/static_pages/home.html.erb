@@ -5,7 +5,7 @@
     <%= link_to "#{t("static_pages.ror")} #{t("static_pages.tutorial")}", Settings.rails.homepage %>
     <%= t ".sample_app" %>
   </h2>
-  <%= link_to t(".sign_up"), "#" , class: "btn btn-lg btn-primary" %>
+  <%= link_to t(".sign_up"), new_user_path , class: "btn btn-lg btn-primary" %>
 </div>
 <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200px"),
   Settings.rails.homepage %>

@@ -120,3 +120,22 @@ en:
     edit:
       acctivated_success: "acctivated success"
       invalid_link: "invalid activate link"
+  password_resets:
+    edit:
+      title: "Password reset"
+      update: "Update password"
+      confirm: "Confirmation"
+    reset_pwd: "Reset password"
+    new:
+      submit: "Submit"
+      forgot_password: "Forgot password"
+  flash:
+    pwd_reset:
+      info: "Email sent with password reset instructions"
+      danger:
+        not_found: "Email address not found"
+        cant_blank: "can't be empty"
+        expired: "Password reset has expired."
+        not_valid_user: "Email's not existed"
+        failed_update: "Update failed"
+      success: "Password has been reset."
