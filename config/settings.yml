@@ -23,3 +23,17 @@ users:
   index:
     per_page: 5
 number: "1"
+user_info:
+  img_size: 60
+micropost:
+  model:
+    content_max_length: 140
+    display_img:
+      height: 500
+      width: 500
+    content_type: /%w(image/jpeg image/gif image/png)/
+    image_size_mb: 5
+  view:
+    micro_form:
+      img_accept: "image/jpeg,image/gif,image/png"
+  img_size: 60

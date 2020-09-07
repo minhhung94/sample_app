@@ -122,3 +122,19 @@ vi:
     edit:
       acctivated_success: "Đã xác minh tài khoản"
       invalid_link: "Link xác minh không tồn tại."
+  microposts:
+    micropost:
+      confirm_del: "Bạn có chắc?"
+    create:
+      micropost_create: "Đã tạo Micropost!"
+    destroy:
+      micropost_delete: "Đã xóa Micropost"
+      micropost_fail: "Thao tác thất bại"
+    correct_user:
+      found: "Tác vụ có hiệu lực"
+      not_found: "Không tìm thấy"
+    models:
+      image:
+        type: "phải đúng định dạng ảnh"
+        size: "nên nhỏ hơn 5MB"
+
