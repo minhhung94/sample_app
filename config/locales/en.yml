@@ -2,6 +2,9 @@ en:
   english: "English"
   vietnam: "Vietnamese"
   base_title: "Ruby on Rails Tutorial Sample App"
+  controller:
+    relationships:
+        fail: "Failed action"
   layouts:
     footer:
       the: "The"
